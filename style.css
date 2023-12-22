@@ -1,0 +1,21 @@
+body {
+    background-color: #1d2a40;
+}
+
+.header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 550;
+    padding: 0 80px;
+}
+
+.header-links {
+    color: rgb(188, 186, 186);
+    font-size: 8px;
+    font-weight: 400;
+    display: flex;
+    gap: 8px;
+}
