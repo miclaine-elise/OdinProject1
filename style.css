@@ -28,6 +28,10 @@ body {
     gap: 66px
 }
 
+.title-image {
+    width: 550px;
+}
+
 .title {
     font-weight: 700;
     font-size: 48px;
@@ -39,9 +43,7 @@ body {
     padding: 6px 0;
 }
 
-img {
-    width: 550px;
-}
+
 
 button {
     background-color: rgb(78, 140, 253);
@@ -55,5 +57,38 @@ button {
 }
 
 .info-container {
+    display: flex;
+    flex-direction: column;
     background-color: white;
+    padding: 50px;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    margin: 60px;
+}
+
+img {
+    width: 170px;
+    border: 4px solid;
+    border-radius: 18px;
+    border-color: rgb(78, 140, 253);
+}
+
+.card {
+    width: 170px;
+    text-align: center;
+}
+
+.card-text {
+    opacity: 0.5;
+    font-size: 18px;
+    font-weight: 500;
 }
