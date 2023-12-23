@@ -92,3 +92,24 @@ img {
     font-size: 18px;
     font-weight: 500;
 }
+
+.quote-container {
+    background-color: rgb(229, 227, 227);
+    padding: 150px 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 8px;
+}
