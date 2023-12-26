@@ -1,5 +1,5 @@
 body {
-    background-color: #1d2a40;
+    background-color: white;
     font-family: sans-serif;
 }
 
@@ -11,6 +11,7 @@ body {
     font-weight: 550;
     padding: 0 200px;
     align-content: center;
+    background-color: #1d2a40;
 }
 
 .header-links {
@@ -19,13 +20,15 @@ body {
     font-weight: 400;
     display: flex;
     gap: 26px;
+    background-color: #1d2a40;
 }
 
 .title-container {
     display: flex;
     padding: 120px 200px;
     color: white;
-    gap: 66px
+    gap: 66px;
+    background-color: #1d2a40;
 }
 
 .title-image {
@@ -40,7 +43,7 @@ body {
 .subtitle {
     font-size: 18px;
     opacity: 0.8;
-    padding: 6px 0;
+    padding: 16px 0;
 }
 
 
@@ -112,4 +115,31 @@ img {
     font-weight: 700;
     font-size: 24px;
     padding: 8px;
+}
+
+.signup-container {
+    display: flex;
+    margin: 100px 200px;
+    color: white;
+    background-color: rgb(78, 140, 253);
+    height: 50px;
+    justify-content: space-between;
+    padding: 50px 100px;
+    align-content: center;
+    border-radius: 8px;
+}
+
+.signup-bold {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.signup-sub {
+    opacity: 0.6;
+    font-size: 18px;
+}
+
+.button-border {
+    border: 2px solid;
+    border-color: white;
 }
